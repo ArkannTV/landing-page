@@ -3,3 +3,62 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    min-height: 100vh;
+    background-image: url('images/background-bleu2.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Alkalami', serif;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Gemunu Libre', sans-serif;
+    font-size:30px;
+}
+
+.premier-article{
+    display: flex;
+    justify-content: space-around;
+}
+
+.images{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.boite{
+    margin-left: 10%
+}
+
+.large{
+    width: 60%;
+    height: 60%;
+    margin-top: 60px;
+}
+
+.small{
+    margin-bottom: 60px;
+}
+
+.txt {
+    padding: 20px;
+    width: 35%;
+    margin:80px;
+    border: 2px solid;
+    border-radius: 5%;
+    background-color: white;
+}
+
+.txt2 {
+    text-align: center;
+    padding: 30px;
+    width: 75%;
+    margin:10%;
+    margin-top:50px;
+    border: 2px solid;
+    border-radius: 5%;
+    background-color: white;
+}
