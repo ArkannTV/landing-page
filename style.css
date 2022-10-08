@@ -6,6 +6,8 @@
 
 body {
     min-height: 100vh;
+    background: center;
+    background: fixed;
     background-image: url('images/background-bleu2.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -24,6 +26,19 @@ body {
     display: flex;
     justify-content: space-around;
     margin-left: 10%;
+}
+
+a{
+    font-size: 20px;
+    font-weight: bold;
+    font-family:'Lato', sans-serif;
+    color:blue;
+}
+
+.footer{
+    display: flex;
+    justify-content:center;
+    font-size: 50%;
 }
 
 .txt {
@@ -69,52 +84,30 @@ section{
     }
 
     body {
-        min-height: 100vh;
-        background-image: url('images/background-bleu2.jpeg');
-        background-repeat: no-repeat;
-        background-size: cover;
-        font-family: 'Lato', sans-serif;
-        font-size: 20px;
+        
     }
     
     .premier-article{
-        display: flex;
-        justify-content: space-around;
-        margin-left: 10%;
+        
     }
     
     .txt {
-        text-align: center;
-        padding: 20px;
-        width: 35%;
-        margin:100px;
-        border: 2px solid;
-        border-radius: 5%;
-        background-color: white;
+        
     }
     
     .large{
-        width: 50%;
+        
     }
     
     .small{
-        width: 35%;
+        
     }
     
     section{
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
+        
     }
     
     .txt2, .txt3 {
-        text-align: center;
-        padding: 20px;
-        width: 50%;
-        margin:80px;
-        margin-top:50px;
-        border: 2px solid;
-        border-radius: 5%;
-        background-color: white;
+        
     }
 }
