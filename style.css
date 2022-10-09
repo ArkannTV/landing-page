@@ -77,37 +77,5 @@ section{
 }
 
 @media screen and (max-width: 900px) {    
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-
-    body {
-        
-    }
     
-    .premier-article{
-        
-    }
-    
-    .txt {
-        
-    }
-    
-    .large{
-        
-    }
-    
-    .small{
-        
-    }
-    
-    section{
-        
-    }
-    
-    .txt2, .txt3 {
-        
-    }
 }
